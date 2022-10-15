@@ -1,0 +1,24 @@
+/* Clients styles */
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+
+  transition: fill 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+  }
+}

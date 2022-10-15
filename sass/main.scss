@@ -1,0 +1,21 @@
+@import "./base/fonts";
+@import "./base/normalize";
+@import "./base/reset";
+@import "./utils/comon";
+@import "./utils/vars.scss";
+@import "./utils/placeholders";
+
+
+@import "./components/header"; 
+// 1 page
+@import "./components/hero"; 
+@import "./components/advantages"; 
+@import "./components/solution"; 
+@import "./components/team"; 
+@import "./components/clients"; 
+
+@import "./components/form"; 
+@import "./components/footer"; 
+
+// 2 page
+@import "./components/portfolio"; 
